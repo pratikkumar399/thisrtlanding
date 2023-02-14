@@ -33,7 +33,7 @@ const Navbar = () => {
     <header className={`header ${shadow ? "header__shadow" : ""}`}>
       <div className="header__content">
         <Link to="/">
-          <h1 className="header__title">Shoes</h1>
+          <h1 className="header__title">T Shirts</h1>
         </Link>
 
         <Link to="/cart">

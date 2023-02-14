@@ -1,5 +1,5 @@
 import "./Home.css";
-import shoeImage from "../../../assets/home.png";
+import tshirtImage from "../../../assets/home.jpg";
 import React from "react";
 
 const Home = () => {
@@ -8,14 +8,14 @@ const Home = () => {
       <div className="home__content">
         <div className="home__shoe">
           <div className="home__shoe-bg"></div>
-          <img src={shoeImage} alt="Shoe image" className="home__shoe-img" />
+          <img src={tshirtImage} alt="tshirt image" className="home__shoe-img" />
         </div>
 
         <div className="home__text">
-          <h2 className="home__title">Adidas SPLY-350</h2>
+          <h2 className="home__title">TShirt SPLY-350</h2>
           <p className="home__description">
-            Adidas' SPLY-350 is a lightweight, breathable, comfortable shoe. Go
-            shop and see more shoes like this. Add them to the cart and
+            T' SPLY-350 is a lightweight, breathable, comfortable tshirt. Go
+            shop and see more tshirts like this. Add them to the cart and
             checkout.
           </p>
 

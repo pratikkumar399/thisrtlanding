@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import "./Footer.css";
 import {
   AiFillInstagram,
@@ -12,7 +13,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer__content">
         <div>
-          <h2>Shoes</h2>
+          <h2>T Shirts</h2>
         </div>
 
         <div className="footer__icons">
@@ -45,7 +46,7 @@ const Footer = () => {
         </div>
 
         <div className="footer__copy">
-          <p className="footer__copy-text">&copy; Shoes. All rights reserved</p>
+          <p className="footer__copy-text">&copy; T Shirts. All rights reserved</p>
         </div>
       </div>
     </footer>
